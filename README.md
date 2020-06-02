@@ -5,6 +5,8 @@
 - User can simply order from any place for its tool.
 - User pick tool, buy it, gets task completed.
 - Admin can manage all the data and sellers.
+- Some screenshots of this project:
+<br>
 
 ![](screenshots/home.png)
 Home page for displaying tools
