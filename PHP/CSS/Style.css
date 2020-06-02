@@ -1,0 +1,121 @@
+body
+{
+	background-color:black;
+	background-size:cover;
+}
+.logo
+{
+	height:150px; 
+	background-position:300px 1px;
+	background-repeat:cover;
+	border-radius:15px;
+}
+#nav
+{
+	margin-top:0%;
+	background-color:#696969;
+	color:white;
+	border-radius:15px;
+}
+.product-image-wrapper
+{
+	border:1px solid #696969;
+	overflow: hidden;
+	margin-bottom:30px;
+}
+.single-products
+{
+  position: relative;
+}
+.mySlides 
+{
+	display:none;
+}
+.dropbtn 
+{
+    background-color: black;
+    color: white;
+    padding: 18px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	width:150px;
+	border-radius:8px;
+}
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #A9A9A9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #DCDCDC
+}
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+    background-color: purple;
+}
+input[type=text]
+{
+    width: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffff;
+    background-position: 1px 1px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.btn 
+{
+  border: 2px solid transparent;
+  background: white;
+  color: black;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  width: 100px;
+  margin: 0 auto;
+}
+.footer
+{
+	width:98%; 
+	height:60px; 
+	overflow:hidden; 
+	margin: 0 auto;
+	background-color:#696969;
+	margin-top:120px;
+	border-radius:15px;
+}
